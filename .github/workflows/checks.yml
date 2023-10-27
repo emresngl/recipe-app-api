@@ -1,9 +1,7 @@
 ---
 name: Checks
 
-push:
-  branches:
-    - main
+on: [Push]
 
 jobs:
   test-lint:
